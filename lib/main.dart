@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Maze runner',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.orange,
       ),
       debugShowCheckedModeBanner: false,
       home: MazePage(),
